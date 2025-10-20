@@ -1,0 +1,23 @@
+{
+  "name": "git-commit",
+  "version": "1.0.0",
+  "description": "Organized git commits with conventional commit messages and context-based grouping",
+  "author": "Claude Code",
+  "commands": {
+    "commit": {
+      "description": "Create organized git commits with conventional commit format",
+      "script": "git-commit.sh",
+      "args": ["commit"]
+    },
+    "commit-push": {
+      "description": "Create organized git commits and push to remote",
+      "script": "git-commit.sh",
+      "args": ["commit-push"]
+    },
+    "analyze": {
+      "description": "Analyze staged changes and suggest commit structure",
+      "script": "git-commit.sh",
+      "args": ["analyze"]
+    }
+  }
+}
