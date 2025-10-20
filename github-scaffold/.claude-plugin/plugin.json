@@ -1,0 +1,7 @@
+{
+  "name": "github-scaffold",
+  "version": "1.0.0",
+  "description": "Scaffold projects from GitHub repositories with support for subdirectories and specific branches",
+  "author": "Claude Code",
+  "entrypoint": "github-scaffold.sh"
+}

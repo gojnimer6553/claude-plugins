@@ -1,0 +1,7 @@
+{
+  "name": "git-commit",
+  "version": "1.0.0",
+  "description": "Organized git commits with conventional commit messages and context-based grouping",
+  "author": "Claude Code",
+  "entrypoint": "git-commit.sh"
+}
